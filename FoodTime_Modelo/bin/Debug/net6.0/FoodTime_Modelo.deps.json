@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FoodTime_Modelo/1.0.0": {
+        "runtime": {
+          "FoodTime_Modelo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FoodTime_Modelo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\bin\Debug\net6.0\FoodTime_Modelo.deps.json
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\bin\Debug\net6.0\FoodTime_Modelo.dll
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\bin\Debug\net6.0\FoodTime_Modelo.pdb
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.csproj.AssemblyReference.cache
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.AssemblyInfoInputs.cache
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.AssemblyInfo.cs
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.dll
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\refint\FoodTime_Modelo.dll
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\FoodTime_Modelo.pdb
+C:\Users\Orellana\source\repos\FoodTime_Backend\FoodTime_Modelo\obj\Debug\net6.0\ref\FoodTime_Modelo.dll
