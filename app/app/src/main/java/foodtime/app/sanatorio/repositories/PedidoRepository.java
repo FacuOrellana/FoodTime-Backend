@@ -32,5 +32,9 @@ public interface PedidoRepository extends BaseRepository<Pedido, Integer> {
             nativeQuery = true)
     List<EmpleadosPedidos> getEmpleadosPedidos();
 
+    @Query(value ="SELECT persona_id FROM Pedido WHERE id = :id",nativeQuery = true)
+    Integer getPersonaIdByPedidoId(@Param("id") Integer id);
+
+
 
 }

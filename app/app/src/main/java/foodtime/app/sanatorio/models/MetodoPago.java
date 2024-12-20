@@ -6,7 +6,8 @@ import org.apache.commons.lang3.StringUtils;
 public enum MetodoPago {
     EFECTIVO("Efectivo"),
     TRANSFERENCIA("Transferencia"),
-    CUENTA("Cuenta Corriente");
+    CUENTA("Cuenta Corriente"),
+    DIETA("Dieta");
 
     @JsonProperty(value = "id")
     private final String name = this.name();

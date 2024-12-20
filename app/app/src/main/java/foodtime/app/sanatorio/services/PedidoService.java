@@ -168,7 +168,7 @@ public class PedidoService extends BaseService<Pedido, PedidoDto, Integer> {
                 "      </div>\n" +
                 "      <p>Mientras tanto, puedes revisar el estado de tu pedido ingresando a nuestro sistema:</p>\n" +
                 "      <p style=\"text-align: center;\">\n" +
-                "        <a href=\"http://localhost:3000/\" class=\"button\">Ingresar</a>\n" +
+                "        <a href=\"http://200.123.110.132:16156/\" class=\"button\">Ingresar</a>\n" +
                 "      </p>\n" +
                 "      <p>Gracias por confiar en nosotros.</p>\n" +
                 "      <p>Saludos cordiales,</p>\n" +

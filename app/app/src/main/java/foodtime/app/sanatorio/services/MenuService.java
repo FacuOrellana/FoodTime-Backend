@@ -5,15 +5,19 @@ import foodtime.app.common.BaseService;
 import foodtime.app.sanatorio.dtos.MenuDto;
 import foodtime.app.sanatorio.dtos.MenuInsumoDto;
 import foodtime.app.sanatorio.models.MenuInsumo;
+import foodtime.app.sanatorio.models.Persona;
+import foodtime.app.sanatorio.models.Usuario;
 import foodtime.app.sanatorio.repositories.MenuInsumoRepository;
 import foodtime.app.sanatorio.repositories.MenuRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import foodtime.app.sanatorio.models.Menu;
 
+import javax.persistence.EntityExistsException;
 import javax.transaction.Transactional;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -53,6 +57,10 @@ public class MenuService extends BaseService<Menu, MenuDto, Integer> {
     @Transactional
     public MenuDto create(MenuDto dto) {
         Menu menu = toEntity(dto);
+        Optional<Menu> existingMenuByTitle = menuRepository.findByTitulo(menu.getTitulo());
+        if (existingMenuByTitle.isPresent()) {
+            throw new EntityExistsException("Ya existe un menú con el mismo título");
+        }
         Menu savedMenu = menuRepository.save(menu);
         List<Integer> insumosIds = dto.menuInsumoList().stream()
                 .map(MenuInsumoDto::insumoId)

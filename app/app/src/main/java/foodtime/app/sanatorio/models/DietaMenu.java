@@ -3,7 +3,6 @@ package foodtime.app.sanatorio.models;
 
 import foodtime.app.common.BaseEntity;
 import foodtime.app.sanatorio.dtos.DietaMenuDto;
-import foodtime.app.sanatorio.dtos.PedidoMenuDto;
 
 import javax.persistence.*;
 import java.time.LocalDate;

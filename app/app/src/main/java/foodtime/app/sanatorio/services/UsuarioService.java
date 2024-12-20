@@ -142,7 +142,7 @@ public class UsuarioService extends BaseService<Usuario, UsuarioDto, Integer> {
                 "      <p>Estamos encantados de darte la bienvenida a nuestra comunidad. En FoodTime, estamos comprometidos en brindarte una experiencia única y adaptada a tus necesidades.</p>\n" +
                 "      <p>Para comenzar a explorar y disfrutar de todos los beneficios, simplemente inicia sesión en tu cuenta:</p>\n" +
                 "      <p style=\"text-align: center;\">\n" +
-                "        <a href=\"http://localhost:3000/login\" class=\"button\">Iniciar sesión</a>\n" +
+                "        <a href=\"http://200.123.110.132:16156/\" class=\"button\">Iniciar sesión</a>\n" +
                 "      </p>\n" +
                 "      <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos. ¡Esperamos que disfrutes de tu experiencia con nosotros!</p>\n" +
                 "      <p>Saludos cordiales,</p>\n" +
@@ -299,7 +299,7 @@ public class UsuarioService extends BaseService<Usuario, UsuarioDto, Integer> {
                     "      <p>Hola,</p>\n" +
                     "      <p>Recibimos una solicitud para recuperar tu contraseña. Si fuiste tú, por favor haz clic en el siguiente botón para restablecer tu contraseña:</p>\n" +
                     "      <p style=\"text-align: center;\">\n" +
-                    "        <a href=\"http://localhost:3000/nueva-contraseña?id=" + usuarioId + "\" class=\"button\">Recuperar contraseña</a>\n" +
+                    "        <a href=\"http://200.123.110.132:16156/nueva-contrasena?id=" + usuarioId + "\" class=\"button\">Recuperar contraseña</a>\n" +
                     "      </p>\n" +
                     "      <p>Si no solicitaste este cambio, por favor ignora este correo.</p>\n" +
                     "      <p>Gracias,</p>\n" +
